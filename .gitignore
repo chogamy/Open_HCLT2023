@@ -1,0 +1,48 @@
+# Model ckpt
+outputs/*
+trainer_logs/*
+
+# yamls
+samples/adb/banking
+samples/adb/oos
+samples/adb/stackoverflow
+samples/K_1_way/banking
+samples/K_1_way/oos
+samples/K_1_way/stackoverflow
+samples/knncl/banking
+samples/knncl/oos
+samples/knncl/stackoverflow
+# results
+# adb_result.csv
+
+results/*.csv
+nohup*
+
+attn_maps
+
+# IDE
+.vscode
+.idea
+
+# cached dataset
+*.arrow
+**/state.json
+**/dataset_dict.json
+**/dataset_info.json
+
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Misc
+.DS_Store
+
+# logs
+wandb/
+lightning_logs/
+
+# Ignore vim files:
+*~
+*.swp
+*.swo

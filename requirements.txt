@@ -1,0 +1,6 @@
+torch >= 2.0
+lightning >= 2.0
+transformers
+datasets
+torchmetrics
+jsonargparse[signatures]
