@@ -89,7 +89,7 @@ MixSNIPS
         <tr>
             <td rowspan=2>50</td>
             <td >Baseline</td>
-            <td>      </td>
+            <td> 74.36     </td>
         </tr>
         <tr>
             <td >Our</td>
@@ -98,7 +98,7 @@ MixSNIPS
         <tr>
             <td rowspan=2>75</td>
             <td >Baseline</td>
-            <td>      </td>
+            <td> 85.04     </td>
         </tr>
         <tr>
             <td >Our</td>
