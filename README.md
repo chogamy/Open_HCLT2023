@@ -61,8 +61,7 @@ MixATIS
         <tr>
             <td >Our</td>
             <td> 94.49 </td>
-        </tr>
-        
+        </tr>      
     </tbody>
 </table>
 
@@ -105,7 +104,6 @@ MixSNIPS
             <td >Our</td>
             <td> 86.92 </td>
         </tr>
-        
     </tbody>
 </table>
 
