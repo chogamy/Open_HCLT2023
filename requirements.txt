@@ -3,4 +3,8 @@ lightning >= 2.0
 transformers
 datasets
 torchmetrics
+omegaconf
+scikit-learn
+matplotlib
+rich
 jsonargparse[signatures]
