@@ -126,6 +126,8 @@ python train.py --config trainer_logs/Naive_bert-base-uncased_mixsnips_clean0.25
 python train.py --model <model-yaml> --trainer <trainer-yaml> --data <data-yaml> --model_name_or_path <plm-path> --known_cls_ratio <float> --seed <int> --mode <train-or-test>
 ```
 
+사용가능한 plm: bert-base-uncased, roberta-base, google/electra-base-discriminator, distilbert-base-uncased
+
 실행 예제
 ```bash 
 python train.py --model samples/model/adb.yaml --trainer samples/trainer/adb.yaml --data samples/data/stackvoerflow.yaml --model_name_or_path bert-base-cased --known_cls_ratio 0.25 --seed 5 --mode train
