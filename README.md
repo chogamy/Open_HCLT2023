@@ -26,8 +26,8 @@ bash naive.sh
 
 MixATIS
 
-|Known class ratio|모델|Accuracy|
-|------|---|---|
+|Known class ratio|model|Accuracy|
+|:------:|:---:|:---:|
 |25|baseline||
 |25|our|76.15|
 |50|baseline||
@@ -37,8 +37,8 @@ MixATIS
 
 MixSNIPS
 
-|Known class ratio|모델|Accuracy|
-|------|---|---|
+|Known class ratio|model|Accuracy|
+|:------:|:---:|:---:|
 |25|baseline|36.01|
 |25|our|57.91|
 |50|baseline||
