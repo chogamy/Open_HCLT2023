@@ -1,0 +1,11 @@
+model:
+  class_path: naive.naive.Naive
+  init_args:
+    model_name_or_path: null
+    lr: 1.0e-3 # 2.0e-5 #1.0e-03 
+    plm_lr: 1.0e-05
+    weight_decay: 0.01
+    scheduler_type: linear 
+    # warmup_steps: 0
+    warmup_rate: 0.1
+    freeze: false
