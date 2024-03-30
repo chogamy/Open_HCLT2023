@@ -26,54 +26,88 @@ bash naive.sh
 
 MixATIS
 
-|Known class ratio|model|Accuracy|
-|:------:|:---:|:---:|
-|25|baseline||
-|25|our|76.15|
-|50|baseline||
-|50|our|91.41|
-|75|baseline||
-|75|our|94.49|
-
-MixSNIPS
-
-|Known class ratio|model|Accuracy|
-|:------:|:---:|:---:|
-|25|baseline|36.01|
-|25|our|57.91|
-|50|baseline||
-|50|our|82.22|
-|75|baseline||
-|75|our|86.92|
-
-test
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Known Class Ratio</th>
+            <th>Model</th>
+            <th>Accuracy</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <td rowspan=2>25</td>
+            <td >Baseline</td>
+            <td>      </td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td >Our</td>
+            <td> 76.15 </td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+            <td rowspan=2>50</td>
+            <td >Baseline</td>
+            <td>      </td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td >Our</td>
+            <td> 91.41 </td>
         </tr>
+        <tr>
+            <td rowspan=2>75</td>
+            <td >Baseline</td>
+            <td>      </td>
+        </tr>
+        <tr>
+            <td >Our</td>
+            <td> 94.49 </td>
+        </tr>
+        
     </tbody>
 </table>
 
+MixSNIPS
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Known Class Ratio</th>
+            <th>Model</th>
+            <th>Accuracy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2>25</td>
+            <td >Baseline</td>
+            <td> 36.01 </td>
+        </tr>
+        <tr>
+            <td >Our</td>
+            <td> 57.91 </td>
+        </tr>
+        <tr>
+            <td rowspan=2>50</td>
+            <td >Baseline</td>
+            <td>      </td>
+        </tr>
+        <tr>
+            <td >Our</td>
+            <td> 82.22 </td>
+        </tr>
+        <tr>
+            <td rowspan=2>75</td>
+            <td >Baseline</td>
+            <td>      </td>
+        </tr>
+        <tr>
+            <td >Our</td>
+            <td> 86.92 </td>
+        </tr>
+        
+    </tbody>
+</table>
 
 
 
