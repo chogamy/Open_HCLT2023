@@ -1,9 +1,3 @@
-"""
-기존 aik에 리니어 레이어 하나 쌓은거
-그대로 training 해보고
-그 다음 known intents를 예측해보자
-"""
-
 from lightning.pytorch.utilities.types import EVAL_DATALOADERS
 import torch
 import torch.nn as nn
