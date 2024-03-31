@@ -56,7 +56,7 @@ MixATIS
         <tr>
             <td rowspan=2>75</td>
             <td >Baseline</td>
-            <td> 0.933920     </td>
+            <td> 93.39     </td>
         </tr>
         <tr>
             <td >Our</td>
