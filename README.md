@@ -38,7 +38,7 @@ MixATIS
         <tr>
             <td rowspan=2>25</td>
             <td >Baseline</td>
-            <td>      </td>
+            <td> 58.51      </td>
         </tr>
         <tr>
             <td >Our</td>
@@ -47,7 +47,7 @@ MixATIS
         <tr>
             <td rowspan=2>50</td>
             <td >Baseline</td>
-            <td>      </td>
+            <td> 83.29     </td>
         </tr>
         <tr>
             <td >Our</td>
@@ -56,7 +56,7 @@ MixATIS
         <tr>
             <td rowspan=2>75</td>
             <td >Baseline</td>
-            <td>      </td>
+            <td> 0.933920     </td>
         </tr>
         <tr>
             <td >Our</td>
